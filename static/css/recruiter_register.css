@@ -1,0 +1,130 @@
+body {
+    font-family: 'Mallanna', sans-serif;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    width: 850px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 48%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#confirm_pass_group {
+    margin-top: 0;
+}
+
+label {
+    width: 40%;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 58%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #4f46e5;
+    background-color: #fff;
+}
+
+.form-group-skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group-skills select {
+    width: 58%;
+}
+
+small {
+    font-size: 13px;
+    color: #666;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 5%;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #e5e7eb;
+}
+
+button {
+    width: 25%;
+    padding: 12px;
+    background: linear-gradient(to right, #4f46e5, #3b82f6);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: center;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #4338ca, #2563eb);
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #444;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #1f2937;
+    margin-bottom: 30px;
+}

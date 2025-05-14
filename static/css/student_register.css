@@ -1,0 +1,138 @@
+body {
+    font-family: 'Mallanna', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    width: 800px;
+    height: 700px;
+    border: 1px solid #d4edff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15%;
+    margin-right: 5%;
+}
+
+.form-group-skills {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.form-group-skills select {
+    width: 66%;
+}
+
+label {
+    width: 40%;
+    margin-right: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #1a237e;
+}
+
+input {
+    width: 60%;
+    padding: 8px;
+    background-color: #f0f7ff;
+    border: 1px solid #b0cfff;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    border-color: #5a9cff;
+    outline: none;
+    background-color: #ffffff;
+}
+
+select {
+    width: 60%;
+    padding: 8px;
+    background-color: #f0f7ff;
+    border: 1px solid #b0cfff;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+select:focus {
+    border-color: #5a9cff;
+    outline: none;
+    background-color: #ffffff;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #90caf9;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 10px rgba(26, 115, 232, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #155ab6;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 22px;
+    color: #37474f;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 7%;
+    color: #0d47a1;
+}
+
+small {
+    margin-left: 50%;
+    padding-bottom: 32%;
+    color: #888;
+}

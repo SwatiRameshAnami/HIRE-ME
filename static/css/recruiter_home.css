@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #f9fafc, #e2e8f0);
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* Logout Button */
+#logout-btn {
+    padding: 8px 16px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: auto;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+#logout-btn:hover {
+    background-color: #1e40af;
+}
+
+/* Layout */
+main {
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    padding: 30px 20px;
+    background-color: #1f2937;
+    color: #ffffff;
+    border-right: 1px solid #e5e7eb;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#reports {
+    text-decoration: underline;
+    margin-top: 20%;
+    cursor: pointer;
+    display: inline-block;
+    color: #93c5fd;
+}
+
+#reports:hover {
+    color: #ffffff;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+th {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+    background-color: #f3f4f6;
+    font-weight: 600;
+    color: #111827;
+}
+
+td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+}
+
+td.description {
+    text-align: center;
+}
+
+/* Buttons */
+#create-job-btn, .view-btn {
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+#create-job-btn:hover, .view-btn:hover {
+    background-color: #1e40af;
+}
+
+.view-btn {
+    padding: 6px 12px;
+}
+
+/* Floating Back Button */
+#back-to-index {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    background-color: #4b5563;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#back-to-index:hover {
+    background-color: #374151;
+}

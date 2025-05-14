@@ -1,0 +1,171 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-size: 16px;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1000;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Logo or Title */
+.header-container {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #1E88E5; /* Blue color */
+}
+
+/* Search Input Styling */
+#search-job {
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#search-job:focus {
+    outline: none;
+    border-color: #1E88E5;
+    box-shadow: 0 0 8px rgba(30, 136, 229, 0.4);
+}
+
+/* Sidebar Styling */
+aside {
+    width: 220px;
+    background-color: #1f2937;
+    border-right: 2px solid #ddd;
+    height: calc(100vh - 70px);
+    padding-top: 70px;
+    position: fixed;
+    top: 70px;
+    font-size: 16px;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+nav ul li {
+    padding: 15px 25px;
+    border-bottom: 1px solid #eee;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #1E88E5;
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* Main Content Area */
+main {
+    flex-grow: 1;
+    padding: 30px;
+    margin-left: 220px;
+    margin-top: 70px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Label Styling */
+label {
+    margin-top: 16px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Input and Textarea Styling */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+}
+
+textarea {
+    height: 120px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1E88E5;
+    box-shadow: 0 0 8px rgba(30, 136, 229, 0.4);
+}
+
+/* Button Styling */
+button[type="submit"] {
+    width: 160px;
+    padding: 12px;
+    background-color: #1E88E5;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-start;
+    font-size: 16px;
+    border-radius: 6px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #1565C0;
+}
+
+button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(30, 136, 229, 0.4);
+}
